@@ -11,7 +11,7 @@ Language support for koRpus: Dutch.
 \tabular{ll}{
 Package: \tab koRpus.lang.nl\cr
 Type: \tab Package\cr
-Version: \tab 0.01-2\cr
+Version: \tab 0.01-3\cr
 Date: \tab 2015-11-02\cr
 Depends: \tab R (>= 2.10.0),koRpus (>= 0.06-3), methods\cr
 Encoding: \tab UTF-8\cr
