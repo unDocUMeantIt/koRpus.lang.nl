@@ -1,0 +1,14 @@
+bibentry("Manual",
+    title="koRpus.lang.nl: Language support for koRpus: Dutch",
+    author="m.eik michalke",
+    year="2015",
+    note="(Version 0.01-2)",
+    url="http://reaktanz.de/?c=hacking&s=koRpus",
+
+    textVersion =
+    paste("michalke, m. (2015). ",
+        "koRpus.lang.nl: Language support for koRpus: Dutch (Version 0.01-2). ",
+        "Available from http://reaktanz.de/?c=hacking&s=koRpus",
+        sep=""),
+
+    mheader = "To cite koRpus.lang.nl in publications use:")

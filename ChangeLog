@@ -1,0 +1,11 @@
+ChangeLog for package koRpus.lang.nl
+
+changes in version 0.01-2 (2015-11-02)
+fixed:
+  - adjusted koRpus dependency to >= 0.06-3
+  - typo in package description
+
+changes in version 0.01-1 (2015-09-21)
+changed:
+  - initial public release via reaktanz.de
+
