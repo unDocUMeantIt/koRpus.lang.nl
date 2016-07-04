@@ -77,7 +77,6 @@ lang.support.nl <- function() {
                 TT.abbrev           = TT.abbrev,
                 TT.params           = file.path(TT.lib, "dutch-utf8.par"),
 
-                TT.tknz.opts.def    = c(),
                 TT.tknz.opts        = paste("-a", TT.abbrev),
                 TT.lookup.command   = c(),
                 TT.filter.command   = c()
@@ -93,7 +92,6 @@ lang.support.nl <- function() {
                 TT.abbrev           = TT.abbrev,
                 TT.params           = file.path(TT.lib, "dutch-utf8.par"),
 
-                TT.tknz.opts.def    = c(),
                 TT.tknz.opts        = paste("-a", TT.abbrev),
                 TT.lookup.command   = c(),
                 TT.filter.command   = c()
