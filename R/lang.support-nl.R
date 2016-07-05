@@ -57,9 +57,9 @@ lang.support.nl <- function() {
   #  - if some setting is missing, just set it to an empty vector (c())
   koRpus::set.lang.support(target="treetag",
     value=list(
-      "nl-utf8"=list(
-        ## preset: "nl-utf8"
-        # tags "utf-8" encoded text files
+      "nl"=list(
+        ## preset: "nl"
+        # tags UTF-8 encoded text files
         lang      = "nl",
         encoding  = "UTF-8",
         preset    = function(TT.cmd, TT.bin, TT.lib, unix.OS){

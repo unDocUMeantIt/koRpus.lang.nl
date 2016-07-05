@@ -1,10 +1,21 @@
 \name{NEWS}
 \title{News for Package 'koRpus.lang.nl'}
 \encoding{UTF-8}
-\section{Changes in koRpus.lang.nl version 0.01-3 (2015-11-02)}{
+\section{Changes in koRpus.lang.nl version 0.01-3 (2016-07-05)}{
   \subsection{unreleased}{
     \itemize{
       \item this release is under development
+    }
+  }
+  \subsection{changed}{
+    \itemize{
+      \item renamed preset from "nl-utf8" into plain \code{"nl"}, as UTF-8 is the default in
+        both TreeTagger and koRpus
+    }
+  }
+  \subsection{added}{
+    \itemize{
+      \item README.md file
     }
   }
 }
