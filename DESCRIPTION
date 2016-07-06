@@ -19,5 +19,5 @@ URL: http://reaktanz.de/?c=hacking&s=koRpus
 Authors@R: c(person(given="m.eik", family="michalke", email="meik.michalke@hhu.de", role=c("aut", "cre")), person(given="Christophe",
                family="Bechet", role=c("ctb")))
 Version: 0.01-3
-Date: 2016-07-05
+Date: 2016-07-06
 RoxygenNote: 5.0.1
