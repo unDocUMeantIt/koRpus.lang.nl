@@ -1,12 +1,7 @@
 \name{NEWS}
 \title{News for Package 'koRpus.lang.nl'}
 \encoding{UTF-8}
-\section{Changes in koRpus.lang.nl version 0.01-3 (2016-07-06)}{
-  \subsection{unreleased}{
-    \itemize{
-      \item this release is under development
-    }
-  }
+\section{Changes in koRpus.lang.nl version 0.01-3 (2016-07-11)}{
   \subsection{changed}{
     \itemize{
       \item renamed preset from "nl-utf8" into plain \code{"nl"}, as UTF-8 is the default in

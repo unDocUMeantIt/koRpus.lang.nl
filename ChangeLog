@@ -1,8 +1,6 @@
 ChangeLog for package koRpus.lang.nl
 
-changes in version 0.01-3 (2016-07-06)
-unreleased:
-  - this release is under development
+changes in version 0.01-3 (2016-07-11)
 changed:
   - renamed preset from "nl-utf8" into plain "nl", as UTF-8 is the default in
     both TreeTagger and koRpus
