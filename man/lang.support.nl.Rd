@@ -15,7 +15,6 @@ loaded.
 In particular, this function adds the following:
 \itemize{
  \item \code{lang}: The additional language "nl" to be used with koRpus
- \item \code{hyphen}: An additional set of hyphenation patterns (see \code{\link{hyph.nl}})
  \item \code{treetag}: The additional preset "nl-utf8",
       implemented according to the respective
    TreeTagger[1] script
@@ -23,10 +22,15 @@ In particular, this function adds the following:
       implemented using the documentation for the corresponding
    TreeTagger parameter set[2]
 }
+Hyphenation patterns are provided by means of the \code{sylly.nl} package.
+}
+\examples{
+\dontrun{
+lang.support.nl()
+}
 }
 \references{
 [1] \url{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/}
 
 [2] \url{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/dutch-tagset.txt}
 }
-
