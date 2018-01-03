@@ -28,7 +28,7 @@
 #' In particular, this function adds the following:
 #' \itemize{
 #'  \item \code{lang}: The additional language "nl" to be used with koRpus
-#'  \item \code{treetag}: The additional preset "nl-utf8", implemented according to the respective
+#'  \item \code{treetag}: The additional preset "nl", implemented according to the respective
 #'    TreeTagger[1] script
 #'  \item \code{POS tags}: An additional set of tags, implemented using the documentation for the corresponding
 #'    TreeTagger parameter set[2]
@@ -49,7 +49,7 @@ lang.support.nl <- function() {
 
   # here you have to adjust the parameters according to the contents of the TreeTagger
   # scripts for your language (see ?set.lang.support for details)
-  #  - if there's both UTF-8 and Latin1 scripts, add them both (as "nl-utf8" and "nl")
+  #  - there is only UTF-8 scripts
   #  - add both the unix and windows equivalents
   #  - if some setting is missing, just set it to an empty vector (c())
   koRpus::set.lang.support(target="treetag",
