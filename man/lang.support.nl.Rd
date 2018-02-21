@@ -4,7 +4,10 @@
 \alias{lang.support.nl}
 \title{Language support for Dutch}
 \usage{
-lang.support.nl()
+lang.support.nl(...)
+}
+\arguments{
+\item{...}{Optional arguments for \code{\link[koRpus:set.lang.support]{set.lang.support}}.}
 }
 \description{
 This function adds support for Dutch to the koRpus package. You should not
@@ -15,8 +18,7 @@ loaded.
 In particular, this function adds the following:
 \itemize{
  \item \code{lang}: The additional language "nl" to be used with koRpus
- \item \code{treetag}: The additional preset "nl-utf8",
-      implemented according to the respective
+ \item \code{treetag}: The additional preset "nl", implemented according to the respective
    TreeTagger[1] script
  \item \code{POS tags}: An additional set of tags,
       implemented using the documentation for the corresponding

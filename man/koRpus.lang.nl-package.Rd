@@ -5,25 +5,25 @@
 \alias{koRpus.lang.nl-package}
 \title{The koRpus.lang.nl Package}
 \description{
-Language Support for 'koRpus': Dutch.
+Language Support for 'koRpus' Package: Dutch.
 }
 \details{
 \tabular{ll}{
 Package: \tab koRpus.lang.nl\cr
 Type: \tab Package\cr
-Version: \tab 0.01-4\cr
-Date: \tab 2017-09-30\cr
-Depends: \tab R (>= 2.10.0),koRpus (>= 0.11-1)\cr
+Version: \tab 0.1-5\cr
+Date: \tab 2018-02-21\cr
+Depends: \tab R (>= 3.1),koRpus (>= 0.11-2)\cr
 Encoding: \tab UTF-8\cr
 License: \tab GPL (>= 3)\cr
 LazyLoad: \tab yes\cr
-URL: \tab http://reaktanz.de/?c=hacking&s=koRpus\cr
+URL: \tab https://reaktanz.de/?c=hacking&s=koRpus\cr
 }
 
-Adds support for the Dutch language to the 'koRpus' package. Due to some restrictions on
-CRAN, the full package sources are only available from the project homepage. To ask for
-help, report bugs, suggest feature improvements, or discuss the global development of the
-package, please subscribe to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
+Adds support for the Dutch language to the 'koRpus' package. To ask for help, report
+bugs, suggest feature improvements, or discuss the global development of the package,
+      please
+consider subscribing to the koRpus-dev mailing list (<http://korpusml.reaktanz.de>).
 }
 \author{
 Meik Michalke, with contributions from Christophe Bechet
