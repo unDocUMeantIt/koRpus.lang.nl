@@ -1,4 +1,4 @@
-# Copyright 2010-2018 Meik Michalke <meik.michalke@hhu.de>
+# Copyright 2010-2019 Meik Michalke <meik.michalke@hhu.de>
 #
 # This file is part of the R package koRpus.lang.nl.
 #
@@ -65,7 +65,7 @@ lang.support.nl <- function(...) {
 
             # note: these objects are set here for convenience, the
             # actual important part is the return value below
-            TT.abbrev   <- file.path(TT.lib, "dutch-abbreviations")
+            TT.abbrev   <- file.path(TT.lib, "dutch-abbreviations-utf8")
             return(
               list(
                 # you should change these according to the TreeTagger script
@@ -74,7 +74,7 @@ lang.support.nl <- function(...) {
                 TT.abbrev           = TT.abbrev,
                 TT.params           = file.path(TT.lib, "dutch-utf8.par"),
 
-                TT.tknz.opts        = paste("-a", TT.abbrev),
+                TT.tknz.opts        = c(),
                 TT.lookup.command   = c(),
                 TT.filter.command   = c()
               )
@@ -89,7 +89,7 @@ lang.support.nl <- function(...) {
                 TT.abbrev           = TT.abbrev,
                 TT.params           = file.path(TT.lib, "dutch-utf8.par"),
 
-                TT.tknz.opts        = paste("-a", TT.abbrev),
+                TT.tknz.opts        = c(),
                 TT.lookup.command   = c(),
                 TT.filter.command   = c()
               )
