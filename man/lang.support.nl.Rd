@@ -12,7 +12,7 @@ lang.support.nl(...)
 \description{
 This function adds support for Dutch to the koRpus package. You should not
 need to call it manually, as that is done automatically when this package is
-loaded.
+being loaded.
 }
 \details{
 In particular, this function adds the following:
@@ -24,12 +24,10 @@ In particular, this function adds the following:
       implemented using the documentation for the corresponding
    TreeTagger parameter set[2]
 }
-Hyphenation patterns are provided by means of the \code{sylly.nl} package.
+Hyphenation patterns are provided by means of the \code{\link[sylly.nl:hyph.support.nl]{sylly.nl}} package.
 }
 \examples{
-\dontrun{
 lang.support.nl()
-}
 }
 \references{
 [1] \url{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/}

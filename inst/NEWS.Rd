@@ -1,6 +1,24 @@
 \name{NEWS}
 \title{News for Package 'koRpus.lang.nl'}
 \encoding{UTF-8}
+\section{Changes in koRpus.lang.nl version 0.1-5 (2020-10-24)}{
+  \subsection{changed}{
+    \itemize{
+      \item removed hard coded abbreviations from global TT.tknz.opts in preset, to
+        enable checks for file names by koRpus
+      \item version number shortened by dropping a zero
+      \item updated README.md
+      \item removed methods from list of imported packages
+      \item renamed abbreviations and parameter files omitting the "-utf8" suffix
+    }
+  }
+  \subsection{added}{
+    \itemize{
+      \item support optional arguments for \code{koRpus::set.lang.support()}
+      \item LICENSE file
+    }
+  }
+}
 \section{Changes in koRpus.lang.nl version 0.01-4 (2017-09-30)}{
   \subsection{changed}{
     \itemize{

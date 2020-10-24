@@ -1,4 +1,4 @@
-# Copyright 2010-2019 Meik Michalke <meik.michalke@hhu.de>
+# Copyright 2010-2020 Meik Michalke <meik.michalke@hhu.de>
 #
 # This file is part of the R package koRpus.lang.nl.
 #
@@ -65,14 +65,16 @@ lang.support.nl <- function(...) {
 
             # note: these objects are set here for convenience, the
             # actual important part is the return value below
-            TT.abbrev   <- file.path(TT.lib, "dutch-abbreviations-utf8")
+            TT.tokenizer  <- file.path(TT.cmd, "utf8-tokenize.perl")
+            TT.abbrev     <- file.path(TT.lib, "dutch-abbreviations")
+            TT.params     <- file.path(TT.lib, "dutch.par")
             return(
               list(
                 # you should change these according to the TreeTagger script
-                TT.tokenizer        = file.path(TT.cmd, "utf8-tokenize.perl"),
+                TT.tokenizer        = TT.tokenizer,
                 TT.tagger           = file.path(TT.bin, "tree-tagger"),
                 TT.abbrev           = TT.abbrev,
-                TT.params           = file.path(TT.lib, "dutch-utf8.par"),
+                TT.params           = TT.params,
 
                 TT.tknz.opts        = c(),
                 TT.lookup.command   = c(),
@@ -84,10 +86,10 @@ lang.support.nl <- function(...) {
             TT.abbrev   <- file.path(TT.lib, "dutch-abbreviations")
             return(
               list(
-                TT.tokenizer        = file.path(TT.cmd, "utf8-tokenize.perl"),
+                TT.tokenizer        = TT.tokenizer,
                 TT.tagger           = file.path(TT.bin, "tree-tagger.exe"),
                 TT.abbrev           = TT.abbrev,
-                TT.params           = file.path(TT.lib, "dutch-utf8.par"),
+                TT.params           = TT.params,
 
                 TT.tknz.opts        = c(),
                 TT.lookup.command   = c(),
