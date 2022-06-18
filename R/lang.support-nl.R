@@ -1,4 +1,4 @@
-# Copyright 2010-2020 Meik Michalke <meik.michalke@hhu.de>
+# Copyright 2010-2022 Meik Michalke <meik.michalke@hhu.de>
 #
 # This file is part of the R package koRpus.lang.nl.
 #
@@ -60,14 +60,14 @@ lang.support.nl <- function(...) {
         lang      = "nl",
         encoding  = "UTF-8",
         preset    = function(TT.cmd, TT.bin, TT.lib, unix.OS){
+          # note: these objects are set here for convenience, the
+          # actual important part is the return value below
+          TT.tokenizer  <- file.path(TT.cmd, "utf8-tokenize.perl")
+          TT.abbrev     <- file.path(TT.lib, "dutch-abbreviations")
+          TT.params     <- file.path(TT.lib, "dutch.par")
           if(isTRUE(unix.OS)){
             # preset for unix systems
 
-            # note: these objects are set here for convenience, the
-            # actual important part is the return value below
-            TT.tokenizer  <- file.path(TT.cmd, "utf8-tokenize.perl")
-            TT.abbrev     <- file.path(TT.lib, "dutch-abbreviations")
-            TT.params     <- file.path(TT.lib, "dutch.par")
             return(
               list(
                 # you should change these according to the TreeTagger script
