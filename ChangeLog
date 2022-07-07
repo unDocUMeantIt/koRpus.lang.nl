@@ -1,8 +1,6 @@
 ChangeLog for package koRpus.lang.nl
 
-changes in version 0.1-6 (2022-06-22)
-unreleased:
-  - this release is under development
+changes in version 0.1-6 (2022-07-07)
 fixed:
   - moved definitions of  TT.tokenizer, TT.abbrev, and TT.params from a
     unix-only section to one that is not OS dependent

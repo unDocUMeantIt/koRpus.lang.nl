@@ -1,13 +1,13 @@
 bibentry("Manual",
     title="koRpus.lang.nl: Language Support for 'koRpus' Package: Dutch",
     author="Meik Michalke",
-    year="2020",
-    note="(Version 0.1-5)",
+    year="2022",
+    note="(Version 0.1-6)",
     url="https://reaktanz.de/?c=hacking&s=koRpus",
 
     textVersion =
-    paste("Michalke, M. (2020). ",
-        "koRpus.lang.nl: Language Support for 'koRpus' Package: Dutch (Version 0.1-5). ",
+    paste("Michalke, M. (2022). ",
+        "koRpus.lang.nl: Language Support for 'koRpus' Package: Dutch (Version 0.1-6). ",
         "Available from https://reaktanz.de/?c=hacking&s=koRpus",
         sep=""),
 

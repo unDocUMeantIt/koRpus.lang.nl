@@ -1,6 +1,14 @@
 \name{NEWS}
 \title{News for Package 'koRpus.lang.nl'}
 \encoding{UTF-8}
+\section{Changes in koRpus.lang.nl version 0.1-6 (2022-07-07)}{
+  \subsection{fixed}{
+    \itemize{
+      \item moved definitions of  TT.tokenizer, TT.abbrev, and TT.params from a
+        unix-only section to one that is not OS dependent
+    }
+  }
+}
 \section{Changes in koRpus.lang.nl version 0.1-5 (2020-10-24)}{
   \subsection{changed}{
     \itemize{
