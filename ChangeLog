@@ -1,5 +1,9 @@
 ChangeLog for package koRpus.lang.nl
 
+changes in version 0.1-7 (2022-07-07)
+unreleased:
+  - this release is under development
+
 changes in version 0.1-6 (2022-07-07)
 fixed:
   - moved definitions of  TT.tokenizer, TT.abbrev, and TT.params from a

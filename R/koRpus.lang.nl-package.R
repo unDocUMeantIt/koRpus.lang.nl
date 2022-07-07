@@ -8,7 +8,7 @@
 #' \tabular{ll}{
 #' Package: \tab koRpus.lang.nl\cr
 #' Type: \tab Package\cr
-#' Version: \tab 0.1-6\cr
+#' Version: \tab 0.1-7\cr
 #' Date: \tab 2022-07-07\cr
 #' Depends: \tab R (>= 3.1),koRpus (>= 0.11-2)\cr
 #' Encoding: \tab UTF-8\cr
